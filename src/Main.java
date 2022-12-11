@@ -54,11 +54,11 @@ public class Main {
         System.out.println("\n");
         // Task 4
         System.out.println("Task 4");
-        for (int i = 0; i < firstArray.length; i++) {
-            if (firstArray[i] % 2 == 0) {
-                System.out.print(firstArray[i] + " ");
+        for (int j : firstArray) {
+            if (j % 2 == 0) {
+                System.out.print(j + " ");
             } else {
-                int a = firstArray[i] + 1;
+                int a = j + 1;
                 System.out.print(a + " ");
             }
         }
